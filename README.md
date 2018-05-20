@@ -48,7 +48,7 @@ When using the specialized functions, knowing which types will be handled by the
 
 ### Warnings:
 1. **Take care of your representation sizes**, if the representation to be converted is bigger than the biggest C data types *the application will probably crash*.
-2. When using the function "basetobase_cc", performance may be poor depending on the length of the custom charset.
+2. When using the function "basetobasecustom", performance may be poor depending on the length of the custom charset.
 
 ### Known issues (Feel free to help!):
 Currently there are no known issues.
